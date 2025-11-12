@@ -1,0 +1,19 @@
+﻿<Window x:Class="PrimerLoginWPF.WinPrincipal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PrimerLoginWPF"
+        mc:Ignorable="d"
+        Title="Mi Sistema" Height="550" Width="500">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Imagenes\dexter.jpg"
+               Stretch="Fill"
+               Opacity="0.7"/>
+        </Grid.Background>
+        <Label x:Name="lblBienvenido"
+               Content="Bienvenido a mi Sistema"
+               HorizontalAlignment="Center"/>
+    </Grid>
+</Window>
